@@ -18,3 +18,17 @@ table-layout: fixed;
 overflow-y: auto;
 overflow-x:hidden;
 }
+
+div.item input {
+	margin-right:10px;
+}
+.glyphicon{
+    font-size: 18px;
+    color: #473C8B;
+}
+.list-group{
+      color: #6E8B3D;
+    font-size: 10pt;
+    list-style-type: circle;
+    form style="margin-top: 0; margin-bottom: 0;"
+}
