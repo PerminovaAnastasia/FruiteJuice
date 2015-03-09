@@ -9,6 +9,8 @@ function run(){
     var inputName = document.getElementById("userName");
     inputName.addEventListener('focusout', inputUserName);
     
+    // it is better to define element IDs and fetch them using getElementById if you have no need in managing 
+    // several elements in the same way or select dynamically created nodes
     document.getElementsByClassName("glyphicon")[0].style.display = "none";
     document.getElementsByClassName("glyphicon")[1].style.display = "none";
     document.getElementsByClassName("glyphicon")[0].addEventListener('click', clickGlyphEdit);
@@ -24,6 +26,7 @@ function onAddButtonClick(){
     var inputName = document.getElementById("userName");
     while(username.length === 0 || username==null)
     {
+    	// while (!username) { ... }
        /* inputName.focus();
         return;*/
         username = prompt("Input your username!");
@@ -31,6 +34,7 @@ function onAddButtonClick(){
     inputName.value = username;
     
 	var todoText = document.getElementById('tableMessage');
+	// define regexp in separate variable please, e.g. var myRegexp = ...
     if(!/\S/.test(todoText.value)){
         todoText.value = '';
         return;
