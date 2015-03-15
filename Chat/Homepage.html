@@ -9,23 +9,26 @@
         <title>Chat</title>
         
     </head>
-    <body onload="run()" >
+    <body onload="run()">
     
     <div class="col-md-6 col-md-offset-2">
-         <div><h3><p style="margin-top: 7%"> <a><span id = "connect" class="label label-success">Connected</span></a></p></h3></div>
+         <div class = "connected"><h3><a><span id = "connect" class="label label-success">Connected</span></a></h3></div>
         
-        <div align = "right" style = "height: 22px;">
-             <a style = "margin-right: 5%"  href="#"><i class="glyphicon glyphicon-pencil"></i></a>
-              <a href="#"><i class="glyphicon glyphicon-trash"></i></a></div>
+        <div class="divHeight">
+          <span class ="common-glyph">
+           <span class="gl-pen"> <a href="#"><i class="glyphicon glyphicon-pencil"></i></a> </span> 
+            <span class="gl-pen"> <a  href="#"><i class="glyphicon glyphicon-trash"></i></a> </span> 
+            </span>
+              </div>
         
         <div class="my-table">
-        <table class="table" style="margin-top: 4%"> 
+        <table class="table"> 
          </table>
          </div>
               
-        <div class="input-group" style="margin-top:5%">
-            <textarea id = "tableMessage" class="form-control" rows="5" style="resize:none" type="text" placeholder="Input message..."></textarea>
-            <span class="input-group-btn" style="vertical-align: top;" >
+        <div class="input-group">
+            <textarea id = "tableMessage" class="form-control" rows="5" type="text" placeholder="Input message..."></textarea>
+            <span class="input-group-btn">
             <button id = "buttonSend" class="btn btn-info" type="button"> <i class="glyphicon glyphicon-send"></i> Send</button>
                </span>
                  </div>
@@ -33,11 +36,11 @@
     </div>
         
     <div class="col-md-3">
-         <div><h4><p style="margin-top: 40%"><span class="label label-info">Name:</span></p></h4></div>
+         <div class ="label-name" ><h4><span class="label label-info">Name:</span></h4></div>
          <input type="text" id = "userName" class="form-control" maxlength="10" placeholder="Input name">
          
 
-       <div><h4><p style="margin-top: 20%"><span class="label label-info">Online persons:</span></p></h4></div>
+       <div class ="label-onliners" ><h4><span class="label label-info">Online persons:</span></h4></div>
          
          <ul class="list-group">
           <li class="list-group-item">Person1</li>
@@ -47,4 +50,3 @@
 
     </body> 
 </html>
-

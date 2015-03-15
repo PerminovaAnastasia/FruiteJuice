@@ -17,18 +17,49 @@ height: 350px;
 table-layout: fixed;
 overflow-y: auto;
 overflow-x:hidden;
+margin-top: 4%;
 }
-
 div.item input {
 	margin-right:10px;
 }
 .glyphicon{
-    font-size: 18px;
+    font-size: 20px;
     color: #473C8B;
+    align: right;
 }
 .list-group{
-      color: #6E8B3D;
+    color: #6E8B3D;
     font-size: 10pt;
     list-style-type: circle;
-    form style="margin-top: 0; margin-bottom: 0;"
+}
+.input-group-btn{
+   vertical-align: top;
+}
+.connected{
+   margin-top: 5%;
+}
+.common-glyph{
+    margin-left: 85%;
+    resize:none;
+}
+.gl-pen{
+    margin-right: 7%;
+}
+.input-group{
+    margin-top:3%;
+}
+.label-name{
+    margin-top: 40%;
+}
+.label-onliners{
+    margin-top: 20%;
+}
+.form-control{
+   resize:none;
+}
+.divHeight{
+    height:20px;
+}
+.col-stage{
+ font-size: 13px;   
 }
