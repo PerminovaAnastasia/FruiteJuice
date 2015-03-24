@@ -1,0 +1,12 @@
+POST http://localhost:999/chat?token=TN11EN HTTP/1.1
+User-Agent: Composer
+Host: localhost:999
+Content-Length: 24
+
+{"message" : "message"} 
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2015 12:12:54 GMT
+Transfer-encoding: chunked
+
+0
+
