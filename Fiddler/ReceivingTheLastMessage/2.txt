@@ -1,0 +1,10 @@
+GET http://10.160.18.254:999/chat?token=TN44EN HTTP/1.1
+User-Agent: Composer
+Host: 10.160.18.254:999
+
+
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2015 10:32:37 GMT
+Content-length: 37
+
+{"messages":["hgk"],"token":"TN19EN"}

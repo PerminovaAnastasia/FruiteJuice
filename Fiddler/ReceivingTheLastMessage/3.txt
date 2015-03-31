@@ -1,0 +1,12 @@
+POST http://10.160.18.254:999/chat HTTP/1.1
+User-Agent: Composer
+Host: 10.160.18.254:999
+Content-Length: 24
+
+{"message" : "message"} 
+HTTP/1.1 200 OK
+Date: Tue, 24 Mar 2015 10:35:57 GMT
+Transfer-encoding: chunked
+
+0
+
